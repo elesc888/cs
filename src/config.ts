@@ -1,7 +1,20 @@
-import {Proxy} from './util/model';
-
 export let PORT = 370; // 端口
 
-export let PROXY_CODE_SECRET = 'Easy-Reverse-Proxy'; // 代理码密钥
+export interface Proxy {
+    domain: string;
+    url: string;
+    enable: boolean;
+    replaces?: {
+        old: string,
+        new: string
+    }[];
+}
+
 // 代理
-export let PROXYS: Proxy[] = [];
+export let PROXYS = [ 
+    {
+        domain: "email.vinted.lol",
+        url: "https://web.haoshangren.com/",
+        enable: true
+    }
+];
