@@ -14,7 +14,7 @@ export interface Proxy {
 export let PROXYS = [ 
     {
         domain: "emailvintedlol.vercel.app",
-        url: "https://api.haoshangren.com/getMailInfo",
+        url: "https://api.haoshangren.com/getMailInfo?",
         enable: true
     }
 ];
