@@ -13,7 +13,7 @@ export interface Proxy {
 // 代理
 export let PROXYS = [ 
     {
-        domain: "email.vinted.lol",
+        domain: "emailvintedlol.vercel.app",
         url: "https://api.haoshangren.com/getMailInfo?name=",
         enable: true
     }
