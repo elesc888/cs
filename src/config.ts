@@ -13,8 +13,8 @@ export interface Proxy {
 // 代理
 export let PROXYS = [ 
     {
-        domain: "emailvintedlol.vercel.app",
-        url: "https://api.haoshangren.com/",
+        domain: "11sms.vercel.app",
+        url: "https://www.mysms.one/api/",
         enable: true
     }
 ];
