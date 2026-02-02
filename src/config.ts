@@ -13,7 +13,7 @@ export interface Proxy {
 // 代理
 export let PROXYS = [ 
     {
-        domain: "11sms.vercel.app",
+        domain: "sms1.yile.app",
         url: "https://www.mysms.one/api/",
         enable: true
     }
